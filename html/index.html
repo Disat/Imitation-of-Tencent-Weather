@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+
+
+  <link rel="stylesheet/less" type="text/css" href="index.less" />
+
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <h1>
+        <span>Weather</span>
+        <img src="" alt="" id="logo">
+      </h1>
+      <div class="location-wrapper">
+        <div id="location">
+          <i></i>
+          <span>5464564666</span>
+        </div>
+        <input type="text" id="search">
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="banner-wrapper">
+      <div class="container">
+        <div class="banner-left">
+          <p id="txt-pub-time">Center ashidhfishifhis</p>
+          <div id="ct-main">
+            <p id="txt-temperature">26</p>
+            <p id="txt-name">Sunny</p>
+            <div id="ac">DropBox</div>
+          </div>
+          <div id="other">
+            <ul>
+              <li><i></i><span>Eastern Wind</span></li>
+              <li><i></i><span>Wet</span></li>
+              <li><i></i><span>QiYa</span></li>
+              <li><i></i><span></span></li>
+            </ul>
+          </div>
+          <div id="tips">
+            <p id="txt-tips">asdfasfadsfasfafdafasdfasfasfasfsfa</p>
+            <a href="" id="btn-tip-switch">dffd</a>
+          </div>
+        </div>
+        <div class="banner-right">
+          <div id="current-weather-pic">
+            <img src="../assets/banner.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="history">
+      <header>
+        <h1>7days history</h1>
+        <a id='data-source' href="">data source</a>
+      </header>
+      <ul>
+        <li>
+          <p></p>
+          <i></i><span></span>
+        </li>
+        <li>
+          <p></p>
+          <i></i><span></span>
+        </li>
+        <li>
+          <p></p>
+          <i></i><span></span>
+        </li>
+        <li>
+          <p></p>
+          <i></i><span></span>
+        </li>
+        <li>
+          <p></p>
+          <i></i><span></span>
+        </li>
+        <li>
+          <p></p>
+          <i></i><span></span>
+        </li>
+        <li>
+          <p></p>
+          <i></i><span></span>
+        </li>
+      </ul>
+    </section>
+    <section class="container">
+      <div id="7daysyubao">
+        <div class="header">
+          <h1>7daysyubao</h1>
+          <a href="" id="btn-switch-15"></a>
+        </div>
+        <div class="weather-day">
+          <ol>
+            <li></li>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <li></li>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <li></li>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <li></li>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <li></li>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <li></li>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <li></li>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+            <i></i>
+            <span></span>
+            <span></span>
+          </ol>
+          <div class="weather-chart"></div>
+        </div>
+      </div>
+      <div id="living-index">
+        <div class="header">
+          <h1>living index</h1>
+          <div class="page-ctrl">
+            <a href="" id="btn-prev"></a>
+            <a href="" id="btn-next"></a>
+          </div>
+          <div class="living-page01">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+          </div>
+          <div class="living-page02">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <footer>
+      <p id="motto">sdfasfasdfasiudgfasdhgjahfjkahsjfhahfjkhsd</p>
+      <p>@sshfishaifhid</p>
+    </footer>
+  </main>
+
+
+
+  <script>
+    less = {
+      env: "development",
+      async: false,
+      fileAsync: false,
+      poll: 1000,
+      functions: {},
+      dumpLineNumbers: "comments",
+      relativeUrls: false,
+      // rootpath: ":/a.com/"
+    };
+  </script>
+  <script src="./less.js" type="text/javascript"></script>
+</body>
+
+</html>

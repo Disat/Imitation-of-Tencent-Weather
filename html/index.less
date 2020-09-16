@@ -1,0 +1,133 @@
+// global-resize
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+// global-style
+body {
+  color: #fff;
+  background: #f6f9fe url(../assets/bgi.jpg) no-repeat center top;
+}
+.container {
+  width: 1200px;
+  min-width: 1200px;
+
+  margin: 0 auto;
+}
+// header
+.page-header {
+  width: 100vw;
+  height: 64px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+  box-sizing: border-box;
+  .container {
+    margin: 0 auto;
+    height: 64px;
+
+    display: flex;
+    justify-content: space-between;
+
+    // background: transparent;
+
+    .location-wrapper {
+      display: flex;
+      justify-content: space-between;
+
+      #location {
+        display: flex;
+      }
+    }
+  }
+}
+// banner
+.banner-wrapper {
+  width: 100vw;
+  height: 400px;
+
+
+
+  // background: linear-gradient(90deg, #65b4f9 0%, #6478f5 100%);
+
+  .container {
+    width: 1200px;
+    height: 400px;
+    min-width: 1200px;
+    min-height: 400px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 115px 0 0 0;
+    margin: 0 auto;
+
+    .banner-left {
+      #txt-pub-time {
+        margin-bottom: 20px;
+      }
+      #ct-main {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 28px;
+        #txt-temperature {
+          margin-right: 20px;
+          height: 86px;
+
+          color: #fff;
+          font-size: 86px;
+          line-height: 86px;
+        }
+        #txt-name {
+          margin-right: 20px;
+
+          // font-size: 60px;
+          font-size: 45px;
+        }
+      }
+      #other {
+        ul {
+          display: flex;
+          li {
+            margin-right: 42px;
+            font-size: 18px;
+          }
+        }
+        margin-bottom: 28px;
+      }
+      #tips {
+        height: 20px;
+        line-height: 20px;
+
+        font-size: 20px;
+        display: flex;
+        p{
+            margin-right: 20px;
+        }
+      }
+    }
+    .banner-right{
+      img{
+        padding: 55px 120px 0 0;
+      }
+    }
+  }
+}
+
+#history{
+margin-top: 130px;
+padding: 20 30 27;
+
+
+color: #344665;
+}
